@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TravelScape | EXPLORE THE WORLD</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="loader">
+    <div class="loader-circle"></div>
+    <h2>TravelScape</h2>
+<p>Loading...</p>
+</div>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+
+    <div class="logo">
+        TravelScape
+    </div>
+
+    <div class="nav-right">
+
+        <button class="theme-toggle" aria-label="Toggle dark mode">
+    <i class="fa-solid fa-moon"></i>
+</button>
+
+        <div class="menu-toggle" aria-label="Open menu">
+    <i class="fa-solid fa-bars"></i>
+</div>
+
+        <ul class="nav-links">
+
+    <li><a href="#">Home</a></li>
+
+    <li><a href="#gallery">Gallery</a></li>
+
+    <li><a href="#about">About</a></li>
+
+</ul>
+
+    </div>
+
+</nav>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <h1>
+
+EXPLORE
+
+<span>THE WORLD.</span>
+
+</h1>
+
+            <p>
+                Every destination has a story worth capturing.
+            </p>
+
+            <a href="#gallery" class="hero-btn">
+
+    Explore Gallery
+    <i class="fa-solid fa-arrow-down"></i>
+
+</a>
+
+<div class="scroll-indicator">
+
+    <span>Scroll to Explore</span>
+
+    <i class="fa-solid fa-chevron-down"></i>
+
+</div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+
+<section class="gallery-section" id="gallery">
+
+    <div class="section-title">
+
+        <h2>Featured Destinations</h2>
+
+        <p>Browse hand-picked locations from around the world.</p>
+
+    </div>
+
+    <div class="stats">
+
+<div>
+<h2>8+</h2>
+<p>Destinations</p>
+</div>
+
+<div>
+<h2>4</h2>
+<p>Categories</p>
+</div>
+
+<div>
+<h2>100%</h2>
+<p>Responsive</p>
+</div>
+
+</div>
+
+    <!-- Filters -->
+
+    <div class="filter-buttons">
+
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="mountains">Mountains</button>
+        <button data-filter="cities">Cities</button>
+        <button data-filter="beaches">Beaches</button>
+        <button data-filter="lakes">Lakes</button>
+
+    </div>
+
+    <!-- Gallery Grid -->
+
+    <div class="gallery-grid">
+
+        <div class="gallery-item mountains"
+     data-title="Hunza Valley"
+     data-location="Pakistan"
+     data-category="Mountains">
+
+    <img src="images/img1.jpg" alt="Hunza Valley" loading="lazy">
+
+    <div class="overlay">
+        <button class="favorite" aria-label="Add to favorites">
+            <i class="fa-regular fa-heart"></i>
+        </button>
+
+        <h3>Hunza Valley</h3>
+        <p>Pakistan</p>
+    </div>
+
+</div>
+
+
+<div class="gallery-item cities"
+     data-title="Kyoto"
+     data-location="Japan"
+     data-category="Cities">
+
+    <img src="images/img2.jpg" alt="Kyoto" loading="lazy">
+
+    <div class="overlay">
+        <button class="favorite" aria-label="Add to favorites">
+            <i class="fa-regular fa-heart"></i>
+        </button>
+
+        <h3>Kyoto</h3>
+        <p>Japan</p>
+    </div>
+
+</div>
+
+
+<div class="gallery-item beaches"
+     data-title="Santorini"
+     data-location="Greece"
+     data-category="Beaches">
+
+    <img src="images/img3.jpg" alt="Santorini" loading="lazy">
+
+    <div class="overlay">
+        <button class="favorite" aria-label="Add to favorites">
+            <i class="fa-regular fa-heart"></i>
+        </button>
+
+        <h3>Santorini</h3>
+        <p>Greece</p>
+    </div>
+
+</div>
+
+
+<div class="gallery-item lakes"
+     data-title="Lake Louise"
+     data-location="Canada"
+     data-category="Lakes">
+
+    <img src="images/img4.jpg" alt="Lake Louise" loading="lazy">
+
+    <div class="overlay">
+        <button class="favorite" aria-label="Add to favorites">
+            <i class="fa-regular fa-heart"></i>
+        </button>
+
+        <h3>Lake Louise</h3>
+        <p>Canada</p>
+    </div>
+
+</div>
+
+
+<div class="gallery-item mountains"
+     data-title="Swiss Alps"
+     data-location="Switzerland"
+     data-category="Mountains">
+
+    <img src="images/img5.jpg" alt="Swiss Alps" loading="lazy">
+
+    <div class="overlay">
+        <button class="favorite" aria-label="Add to favorites">
+            <i class="fa-regular fa-heart"></i>
+        </button>
+
+        <h3>Swiss Alps</h3>
+        <p>Switzerland</p>
+    </div>
+
+</div>
+
+
+<div class="gallery-item cities"
+     data-title="Venice"
+     data-location="Italy"
+     data-category="Cities">
+
+    <img src="images/img6.jpg" alt="Venice" loading="lazy">
+
+    <div class="overlay">
+        <button class="favorite" aria-label="Add to favorites">
+            <i class="fa-regular fa-heart"></i>
+        </button>
+
+        <h3>Venice</h3>
+        <p>Italy</p>
+    </div>
+
+</div>
+
+
+<div class="gallery-item beaches"
+     data-title="Maldives"
+     data-location="Indian Ocean"
+     data-category="Beaches">
+
+    <img src="images/img7.jpg" alt="Maldives" loading="lazy">
+
+    <div class="overlay">
+        <button class="favorite" aria-label="Add to favorites">
+            <i class="fa-regular fa-heart"></i>
+        </button>
+
+        <h3>Maldives</h3>
+        <p>Indian Ocean</p>
+    </div>
+
+</div>
+
+
+<div class="gallery-item lakes"
+     data-title="Moraine Lake"
+     data-location="Canada"
+     data-category="Lakes">
+
+    <img src="images/img8.jpg" alt="Moraine Lake" loading="lazy">
+
+    <div class="overlay">
+        <button class="favorite" aria-label="Add to favorites">
+            <i class="fa-regular fa-heart"></i>
+        </button>
+
+        <h3>Moraine Lake</h3>
+        <p>Canada</p>
+    </div>
+
+</div>
+
+    </div>
+
+</section>  
+
+<!-- ================= LIGHTBOX ================= -->
+
+<div class="lightbox">
+
+    <span class="close" aria-label="Close">&times;</span>   
+
+    <button class="prev" aria-label="Previous image">
+        <i class="fa-solid fa-chevron-left"></i>
+    </button>
+
+    <div class="lightbox-content">
+
+    <img class="lightbox-image" alt="Selected destination">
+
+    <div class="lightbox-info">
+
+        <h3 id="lightbox-title"></h3>
+
+        <p id="lightbox-location"></p>
+
+        <div class="lightbox-meta">
+
+<span id="image-counter"></span>
+
+</div>
+
+        <a id="download-btn"
+   href="#"
+   download>
+
+    <i class="fa-solid fa-download"></i>
+
+    Download
+
+</a>
+
+    </div>
+
+</div>
+
+    <button class="next" aria-label="Next image">
+        <i class="fa-solid fa-chevron-right"></i>
+    </button>
+
+</div>  
+
+    <!-- About -->
+
+    <!-- ================= ABOUT ================= -->
+
+<section class="about-section" id="about">
+
+    <div class="about-container">
+
+        <div class="about-image">
+
+            <img src="images/about.jpg" alt="Travel Explorer">
+
+        </div>
+
+        <div class="about-content">
+
+            <span class="section-tag">
+                About TravelScape
+            </span>
+
+            <h2>
+                Every Journey Begins With Curiosity
+            </h2>
+
+            <p>
+                TravelScape is a modern photography gallery created for
+                travelers, explorers, and photography lovers. Every image
+                captures a unique destination, inspiring you to discover
+                breathtaking landscapes, vibrant cities, and unforgettable
+                experiences from around the world.
+            </p>
+
+            <div class="about-stats">
+
+    <div class="stat">
+        <h3 class="counter" data-target="8">0</h3>
+        <span>Destinations</span>
+    </div>
+
+    <div class="stat">
+        <h3 class="counter" data-target="15">0</h3>
+        <span>Countries</span>
+    </div>
+
+    <div class="stat">
+        <h3 class="counter" data-target="500">0</h3>
+        <span>Photos</span>
+    </div>
+
+</div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+<h2>TravelScape</h2>
+
+<p>
+
+Explore the world through photography.
+
+</p>
+
+<div class="social-icons">
+
+<i class="fab fa-instagram"></i>
+
+<i class="fab fa-github"></i>
+
+<i class="fab fa-pinterest"></i>
+
+</div>
+
+<p>
+
+© 2026 TravelScape
+
+</p>
+
+</footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
